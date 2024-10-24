@@ -26,5 +26,9 @@ in {
     TelescopePromptPrefix.fg = "${base08}";
     TelescopePromptPrefix.bg = "${base01}";
     TelescopeSelection.bg = "${base01}";
+    TSComment = {
+      fg = "${base03}";
+      italic = true;
+    };
   };
 }

@@ -8,7 +8,7 @@
 
   options = {
     scheme = lib.mkOption {
-      default = lib.mkDefault "paradise";
+      default = lib.mkDefault "far";
       type = lib.types.enum [
         "paradise"
         "far"
@@ -19,6 +19,6 @@
   # Declare colorscheme here
   # Thank you, elythh
   config = {
-    scheme = "paradise";
+    scheme = "far";
   };
 }
