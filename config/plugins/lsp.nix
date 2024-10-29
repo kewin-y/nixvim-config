@@ -10,6 +10,7 @@
       marksman.enable = true;
       omnisharp.enable = true;
       clangd.enable = true;
+      pylsp.enable = true;
       rust_analyzer = {
         enable = true;
         installRustc = false;
