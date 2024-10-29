@@ -12,7 +12,7 @@
       type = lib.types.enum [
         "paradise"
         "far"
-        "brushtrees"
+        "oxocarbon"
       ];
     };
   };
@@ -20,6 +20,6 @@
   # Declare colorscheme here
   # Thank you, elythh
   config = {
-    scheme = "brushtrees";
+    scheme = "oxocarbon";
   };
 }

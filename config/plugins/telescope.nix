@@ -2,7 +2,7 @@
   plugins.telescope = {
     enable = true;
     keymaps = {
-      "<C-p>" = "git_files";
+      "<C-g>" = "git_files";
       "<leader>fw" = "live_grep";
       "<leader>ff" = "find_files";
       "<leader>fo" = "oldfiles";
