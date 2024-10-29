@@ -14,6 +14,10 @@ in {
     FloatBorder.bg = "${base01}";
     NvimTreeWindowPicker.fg = "${base05}";
     NvimTreeWindowPicker.bg = "${base01}";
+    NvimTreeFolderIcon .fg = "${base0D}";
+    NvimTreeFolderName .fg = "${base0D}";
+    NvimTreeFolderArrowOpen.fg = "${base0D}";
+    NvimTreeFolderArrowClosed.fg = "${base0D}";
     CmpItemAbbrMatch.fg = "${base05}";
     CmpItemAbbrMatchFuzzy.fg = "${base05}";
     CmpItemAbbr.fg = "${base05}";

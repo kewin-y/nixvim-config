@@ -29,6 +29,16 @@
         webdevColors = false;
         show.file = false;
         show.folder = false;
+        glyphs.folder = {
+          arrowClosed = ">";
+          arrowOpen = "v";
+          default = "";
+          open = "";
+          empty = "";
+          emptyOpen = "";
+          symlink = "";
+          symlinkOpen = "";
+        };
       };
     };
   };
