@@ -4,6 +4,7 @@
     ./opts.nix
     ./colorscheme.nix
     ./plugins
+    ./autocmds.nix
   ];
 
   options = {
