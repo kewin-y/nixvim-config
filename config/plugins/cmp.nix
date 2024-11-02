@@ -1,7 +1,7 @@
 {
   plugins = {
     # lspkind
-    lspkind.enable = false;
+    lspkind.enable = true;
 
     # cmp sources
     cmp-emoji.enable = true;
@@ -76,34 +76,7 @@
     };
   };
   extraConfigLuaPost = ''
-    -- luasnip = require("luasnip")
-    -- kind_icons = {
-    --   Text = "󰊄",
-    --   Method = "",
-    --   Function = "󰡱",
-    --   Constructor = "",
-    --   Field = "",
-    --   Variable = "󱀍",
-    --   Class = "",
-    --   Interface = "",
-    --   Module = "󰕳",
-    --   Property = "",
-    --   Unit = "",
-    --   Value = "",
-    --   Enum = "",
-    --   Keyword = "",
-    --   Snippet = "",
-    --   Color = "",
-    --   File = "",
-    --   Reference = "",
-    --   Folder = "",
-    --   EnumMember = "",
-    --   Constant = "",
-    --   Struct = "",
-    --   Event = "",
-    --   Operator = "",
-    --   TypeParameter = "",
-    -- }
+    luasnip = require("luasnip")
     cmp.setup.cmdline(':', {
       mapping = cmp.mapping.preset.cmdline(),
       sources = cmp.config.sources({

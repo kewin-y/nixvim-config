@@ -4,7 +4,6 @@ in {
   plugins.lualine = {
     enable = true;
     settings = {
-      theme = "base16";
       options = {
         icons_enabled = false;
         global_status = true;

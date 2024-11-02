@@ -1,6 +1,6 @@
 {...}: {
   # Where else can I put this
-  plugins.web-devicons.enable = false;
+  plugins.web-devicons.enable = true;
 
   opts = {
     fillchars.eob = " ";

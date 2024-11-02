@@ -85,5 +85,11 @@
       max_height = 12,
       max_width = 300,
     })
+    vim.diagnostic.config({
+      float = {
+        border = "single",
+        source = "always",
+      },
+    })
   '';
 }
