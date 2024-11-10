@@ -7,11 +7,11 @@
   base05 = "#f2f4f8";
   base06 = "#ffffff";
   base07 = "#08bdba";
-  base08 = "#3ddbd9";
-  base09 = "#33b1ff";
-  base0A = "#ee5396";
+  base08 = "#ee5396";
+  base09 = "#ff7eb6";
+  base0A = "#3ddbd9";
   base0B = "#42be65";
-  base0C = "#ff7eb6";
+  base0C = "#33b1ff";
   base0D = "#78a9ff";
   base0E = "#be95ff";
   base0F = "#82cfff";
