@@ -1,3 +1,4 @@
+# Author: shaunsingh/IBM
 {
   base00 = "#161616";
   base01 = "#262626";

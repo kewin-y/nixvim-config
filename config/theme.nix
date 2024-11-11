@@ -1,5 +1,5 @@
 {config, ...}: let
-  colors = import ./schemes/${config.scheme}.nix;
+  colors = import ./themes/${config.theme}.nix;
 in {
   colorschemes.base16 = {
     enable = true;

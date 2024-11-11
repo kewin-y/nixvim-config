@@ -2,19 +2,20 @@
   imports = [
     ./binds.nix
     ./opts.nix
-    ./colorscheme.nix
+    ./theme.nix
     ./plugins
     ./autocmds.nix
   ];
 
   options = {
-    scheme = lib.mkOption {
+    theme = lib.mkOption {
       default = lib.mkDefault "far";
       type = lib.types.enum [
         "paradise"
         "far"
         "oxocarbon"
         "material"
+        "material-darker"
       ];
     };
   };
@@ -22,6 +23,6 @@
   # Declare colorscheme here
   # Thank you, elythh
   config = {
-    scheme = "oxocarbon";
+    theme = "material-darker";
   };
 }

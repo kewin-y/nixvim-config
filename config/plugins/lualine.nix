@@ -1,5 +1,5 @@
 {config, ...}: let
-  colors = import ../schemes/${config.scheme}.nix;
+  colors = import ../themes/${config.theme}.nix;
 in {
   plugins.lualine = {
     enable = true;
