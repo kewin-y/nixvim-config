@@ -16,6 +16,7 @@
         "oxocarbon"
         "material"
         "material-darker"
+        "material-lighter"
       ];
     };
   };
@@ -23,6 +24,6 @@
   # Declare colorscheme here
   # Thank you, elythh
   config = {
-    theme = "material-darker";
+    theme = "material-lighter";
   };
 }
