@@ -1,3 +1,4 @@
+# Author: manas140
 {
   base00 = "#151515";
   base01 = "#1F1F1F";

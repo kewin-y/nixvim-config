@@ -1,3 +1,4 @@
+# Author: Nate Peterson
 {
   base00 = "#263238";
   base01 = "#2E3C43";
