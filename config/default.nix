@@ -24,6 +24,6 @@
   # Declare colorscheme here
   # Thank you, elythh
   config = {
-    theme = "material-lighter";
+    theme = "far";
   };
 }
