@@ -17,6 +17,7 @@
         "material"
         "material-darker"
         "material-lighter"
+        "ocean"
       ];
     };
   };
