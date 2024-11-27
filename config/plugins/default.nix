@@ -11,5 +11,6 @@
     ./obsidian.nix
     ./telescope.nix
     ./treesitter.nix
+    ./mini.nix
   ];
 }

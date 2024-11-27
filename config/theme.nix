@@ -2,13 +2,17 @@
   colors = import ./themes/${config.theme}.nix;
 in {
   # Highlight groups
-  highlight = with colors; {
+  highlightOverride = with colors; {
     WinSeparator.fg = "${base02}";
     VertSplit = {
       fg = base01;
       bg = "none";
     };
     LineNr = {
+      fg = base03;
+      bg = "none";
+    };
+    SignColumn = {
       fg = base03;
       bg = "none";
     };
@@ -38,5 +42,4 @@ in {
       italic = true;
     };
   };
-
 }
