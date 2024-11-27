@@ -31,12 +31,11 @@ in {
     CmpItemKind.fg = "${base0E}";
     CmpItemMenu.fg = "${base0E}";
     CmpItemKindSnippet.fg = "${base0E}";
-    # TelescopePromptBorder.fg = "${base01}";
-    # TelescopePromptBorder.bg = "${base01}";
-    # TelescopePromptNormal.bg = "${base01}";
-    # TelescopePromptPrefix.fg = "${base08}";
-    # TelescopePromptPrefix.bg = "${base01}";
-    # TelescopeSelection.bg = "${base01}";
+    DiagnosticFloatingError = {fg="${base08}"; bg="${base00}";};
+    DiagnosticFloatingHint = {fg="${base0D}"; bg="${base00}";};
+    DiagnosticFloatingInfo = {fg="${base0C}"; bg="${base00}";};
+    DiagnosticFloatingOk = {fg="${base0B}"; bg="${base00}";};
+    DiagnosticFloatingWarn = {fg="${base0E}"; bg="${base00}";};
     TSComment = {
       fg = "${base03}";
       italic = true;
