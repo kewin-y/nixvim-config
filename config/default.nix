@@ -17,7 +17,7 @@
         "material"
         "material-darker"
         "material-lighter"
-        "ocean"
+        "test"
       ];
     };
   };
@@ -25,6 +25,6 @@
   # Declare colorscheme here
   # Thank you, elythh
   config = {
-    theme = "far";
+    theme = "test";
   };
 }
