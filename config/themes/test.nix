@@ -1,7 +1,7 @@
 # Author: Me
 # Ok so thats why its
 {
-  base00 = "#f4f1ed";
+  base00 = "#f5f3ef";
   base01 = "#e6e5e4";
   base02 = "#cccbca";
   base03 = "#b3b2b1";
