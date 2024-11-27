@@ -1,10 +1,10 @@
 {lib, ...}: {
   imports = [
+    ./plugins
+    ./autocmds.nix
     ./binds.nix
     ./opts.nix
     ./theme.nix
-    ./plugins
-    ./autocmds.nix
   ];
 
   options = {
