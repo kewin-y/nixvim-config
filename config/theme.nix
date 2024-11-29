@@ -36,6 +36,7 @@ in {
     DiagnosticFloatingInfo = {fg="${base0C}"; bg="${base00}";};
     DiagnosticFloatingOk = {fg="${base0B}"; bg="${base00}";};
     DiagnosticFloatingWarn = {fg="${base0E}"; bg="${base00}";};
+    TelescopeBorder.fg = "${base03}";
     TSComment = {
       fg = "${base03}";
       italic = true;

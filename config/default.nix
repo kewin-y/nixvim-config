@@ -25,6 +25,6 @@
   # Declare colorscheme here
   # Thank you, elythh
   config = {
-    theme = "test";
+    theme = "paradise";
   };
 }
