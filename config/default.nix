@@ -1,3 +1,6 @@
+# Much this code is referenced from elythh's nixvim config as I still suck at Nix
+# See https://github.com/elythh/nixvim
+
 {lib, ...}: {
   imports = [
     ./plugins
@@ -22,8 +25,6 @@
     };
   };
 
-  # Declare colorscheme here
-  # Thank you, elythh
   config = {
     theme = "paradise";
   };
