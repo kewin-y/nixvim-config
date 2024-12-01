@@ -21,11 +21,12 @@
         "material-darker"
         "material-lighter"
         "test"
+        "decay"
       ];
     };
   };
 
   config = {
-    theme = "paradise";
+    theme = "decay";
   };
 }
