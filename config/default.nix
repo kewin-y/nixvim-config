@@ -22,11 +22,12 @@
         "material-lighter"
         "test"
         "decay"
+        "rose-pine-dawn"
       ];
     };
   };
 
   config = {
-    theme = "decay";
+    theme = "rose-pine-dawn";
   };
 }
