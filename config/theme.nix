@@ -31,11 +31,19 @@ in {
     CmpItemKind.fg = "${base0E}";
     CmpItemMenu.fg = "${base0E}";
     CmpItemKindSnippet.fg = "${base0E}";
-    DiagnosticFloatingError = {fg="${base08}"; bg="${base00}";};
-    DiagnosticFloatingHint = {fg="${base0D}"; bg="${base00}";};
-    DiagnosticFloatingInfo = {fg="${base0C}"; bg="${base00}";};
-    DiagnosticFloatingOk = {fg="${base0B}"; bg="${base00}";};
-    DiagnosticFloatingWarn = {fg="${base0E}"; bg="${base00}";};
+
+    DiagnosticFloatingError = {fg="${base08}"; bg="${base01}";};
+    DiagnosticFloatingHint = {fg="${base0A}"; bg="${base01}";};
+    DiagnosticFloatingInfo = {fg="${base0C}"; bg="${base01}";};
+    DiagnosticFloatingOk = {fg="${base0B}"; bg="${base01}";};
+    DiagnosticFloatingWarn = {fg="${base0E}"; bg="${base01}";};
+
+    DiagnosticSignError = {fg="${base08}"; bg="${base00}";};
+    DiagnosticSignHint = {fg="${base0A}"; bg="${base00}";};
+    DiagnosticSignInfo = {fg="${base0C}"; bg="${base00}";};
+    DiagnosticSignOk = {fg="${base0B}"; bg="${base00}";};
+    DiagnosticSignWarn = {fg="${base0E}"; bg="${base00}";};
+
     TelescopeBorder.fg = "${base03}";
     TSComment = {
       fg = "${base03}";
