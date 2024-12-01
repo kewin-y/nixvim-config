@@ -1,8 +1,8 @@
 # author: "Emilia Dunfelt "
 {
-  base00 = "#fffaf3";
-  base01 = "#faf4ed";
-  base02 = "#f2e9de";
+  base00 = "#faf4ed";
+  base01 = "#f2e9e1";
+  base02 = "#dfdad9";
   base03 = "#9893a5";
   base04 = "#797593";
   base05 = "#575279";
