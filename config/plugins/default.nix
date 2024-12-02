@@ -12,5 +12,6 @@
     ./telescope.nix
     ./treesitter.nix
     ./mini.nix
+    ./markview.nix
   ];
 }

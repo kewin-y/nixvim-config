@@ -2,6 +2,7 @@
   plugins.obsidian = {
     enable = true;
     settings = {
+      ui.enable = false;
       completion = {
         min_chars = 2;
         nvim_cmp = true;
