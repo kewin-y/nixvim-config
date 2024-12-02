@@ -23,19 +23,19 @@ in {
             };
             b = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             c = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             z = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             y = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
           };
           insert = {
@@ -45,19 +45,19 @@ in {
             };
             b = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             c = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             z = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             y = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
           };
           command = {
@@ -67,19 +67,19 @@ in {
             };
             b = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             c = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             z = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             y = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
           };
           visual = {
@@ -89,19 +89,19 @@ in {
             };
             b = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             c = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             z = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             y = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
           };
           replace = {
@@ -111,19 +111,19 @@ in {
             };
             b = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             c = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             z = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
             y = {
               bg = "${base01}";
-              fg = "${base04}";
+              fg = "${base05}";
             };
           };
         };

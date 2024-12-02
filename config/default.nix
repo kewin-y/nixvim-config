@@ -23,11 +23,12 @@
         "test"
         "decay"
         "rose-pine-dawn"
+        "yoru"
       ];
     };
   };
 
   config = {
-    theme = "rose-pine-dawn";
+    theme = "yoru";
   };
 }

@@ -74,7 +74,7 @@ in {
       bg = base00;
     };
 
-    TelescopeBorder.fg = base03;
+    TelescopeBorder.fg = base05;
     TSComment = {
       fg = base03;
       italic = true;
