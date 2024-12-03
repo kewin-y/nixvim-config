@@ -7,7 +7,7 @@
       cssls.enable = true;
       astro.enable = true;
       tailwindcss.enable = true;
-      marksman.enable = true;
+      markdown_oxide.enable = true;
       clangd.enable = true;
       pylsp.enable = true;
       rust_analyzer = {
