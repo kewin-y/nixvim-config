@@ -8,7 +8,6 @@
     ./luasnip.nix
     ./none-ls.nix
     ./nvim-tree.nix
-    ./obsidian.nix
     ./telescope.nix
     ./treesitter.nix
     ./mini.nix

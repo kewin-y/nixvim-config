@@ -8,7 +8,6 @@
       astro.enable = true;
       tailwindcss.enable = true;
       marksman.enable = true;
-      omnisharp.enable = true;
       clangd.enable = true;
       pylsp.enable = true;
       rust_analyzer = {
