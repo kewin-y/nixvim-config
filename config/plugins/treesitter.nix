@@ -1,21 +1,7 @@
 {pkgs, ...}: {
   plugins.treesitter = {
     enable = true;
-    grammarPackages = with pkgs.vimPlugins.nvim-treesitter.builtGrammars; [
-      nix
-      markdown
-      typescript
-      javascript
-      c
-      cpp
-      python
-      astro
-      rust
-      yaml
-      html
-      scss
-      css
-    ];
+    grammarPackages = pkgs.vimPlugins.nvim-treesitter.allGrammars;
     settings = {
       indent = {
         enable = true;
