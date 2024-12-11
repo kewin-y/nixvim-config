@@ -8,15 +8,6 @@ in {
       fg = base01;
       bg = "none";
     };
-    LineNr = {
-      fg = base03;
-      bg = "none";
-    };
-    SignColumn = {
-      fg = base03;
-      bg = "none";
-    };
-
     NormalFloat.bg = base01;
     FloatBorder.fg = base01;
     FloatBorder.bg = base01;
@@ -32,7 +23,14 @@ in {
     CmpItemKind.fg = base0E;
     CmpItemMenu.fg = base0E;
     CmpItemKindSnippet.fg = base0E;
-
+    LineNr = {
+      fg = base03;
+      bg = "none";
+    };
+    SignColumn = {
+      fg = base03;
+      bg = "none";
+    };
     DiagnosticFloatingError = {
       fg = base08;
       bg = base01;
@@ -71,6 +69,56 @@ in {
     };
     DiagnosticSignWarn = {
       fg = base0E;
+      bg = base00;
+    };
+
+    # Markview
+    MarkviewHeading1Sign = {
+      fg = base0D;
+      bg = base00;
+    };
+    MarkviewHeading2Sign = {
+      fg = base0D;
+      bg = base00;
+    };
+    MarkviewHeading3Sign = {
+      fg = base0D;
+      bg = base00;
+    };
+    MarkviewHeading4Sign = {
+      fg = base0D;
+      bg = base00;
+    };
+    MarkviewHeading5Sign = {
+      fg = base0D;
+      bg = base00;
+    };
+    MarkviewHeading6Sign = {
+      fg = base0D;
+      bg = base00;
+    };
+    MarkviewIcon1Sign = {
+      fg = base0D;
+      bg = base00;
+    };
+    MarkviewIcon2Sign = {
+      fg = base0D;
+      bg = base00;
+    };
+    MarkviewIcon3Sign = {
+      fg = base0D;
+      bg = base00;
+    };
+    MarkviewIcon4Sign = {
+      fg = base0D;
+      bg = base00;
+    };
+    MarkviewIcon5Sign = {
+      fg = base0D;
+      bg = base00;
+    };
+    MarkviewIcon6Sign = {
+      fg = base0D;
       bg = base00;
     };
 
