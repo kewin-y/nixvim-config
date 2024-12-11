@@ -24,11 +24,12 @@
         "decay"
         "rose-pine-dawn"
         "yoru"
+        "solarized-light"
       ];
     };
   };
 
   config = {
-    theme = "yoru";
+    theme = "solarized-light";
   };
 }
