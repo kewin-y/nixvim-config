@@ -30,6 +30,6 @@
   };
 
   config = {
-    theme = "solarized-light";
+    theme = "test";
   };
 }
