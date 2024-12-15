@@ -1,7 +1,7 @@
 {
   plugins = {
     # lspkind
-    lspkind.enable = true;
+    lspkind.enable = false;
 
     # cmp sources
     cmp-emoji.enable = true;
