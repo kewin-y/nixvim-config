@@ -72,56 +72,6 @@ in {
       bg = base00;
     };
 
-    # Markview
-    MarkviewHeading1Sign = {
-      fg = base0D;
-      bg = base00;
-    };
-    MarkviewHeading2Sign = {
-      fg = base0D;
-      bg = base00;
-    };
-    MarkviewHeading3Sign = {
-      fg = base0D;
-      bg = base00;
-    };
-    MarkviewHeading4Sign = {
-      fg = base0D;
-      bg = base00;
-    };
-    MarkviewHeading5Sign = {
-      fg = base0D;
-      bg = base00;
-    };
-    MarkviewHeading6Sign = {
-      fg = base0D;
-      bg = base00;
-    };
-    MarkviewIcon1Sign = {
-      fg = base0D;
-      bg = base00;
-    };
-    MarkviewIcon2Sign = {
-      fg = base0D;
-      bg = base00;
-    };
-    MarkviewIcon3Sign = {
-      fg = base0D;
-      bg = base00;
-    };
-    MarkviewIcon4Sign = {
-      fg = base0D;
-      bg = base00;
-    };
-    MarkviewIcon5Sign = {
-      fg = base0D;
-      bg = base00;
-    };
-    MarkviewIcon6Sign = {
-      fg = base0D;
-      bg = base00;
-    };
-
     TelescopeBorder.fg = base03;
 
     TSComment = {
