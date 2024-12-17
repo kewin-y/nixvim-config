@@ -5,6 +5,11 @@ in {
     enable = true;
     settings = {
       options = {
+        disabled_filetypes = {
+          statusline = [
+            "ministarter"
+          ];
+        };
         icons_enabled = false;
         global_status = true;
         component_separators = {
@@ -18,8 +23,8 @@ in {
         theme = with colors; {
           normal = {
             a = {
-              bg = "${base01}";
-              fg = "${base0D}";
+              bg = "${base0D}";
+              fg = "${base01}";
             };
             b = {
               bg = "${base01}";
@@ -40,8 +45,8 @@ in {
           };
           insert = {
             a = {
-              bg = "${base01}";
-              fg = "${base0E}";
+              bg = "${base0E}";
+              fg = "${base01}";
             };
             b = {
               bg = "${base01}";
@@ -62,8 +67,8 @@ in {
           };
           command = {
             a = {
-              bg = "${base01}";
-              fg = "${base08}";
+              bg = "${base08}";
+              fg = "${base01}";
             };
             b = {
               bg = "${base01}";
@@ -84,8 +89,8 @@ in {
           };
           visual = {
             a = {
-              bg = "${base01}";
-              fg = "${base0B}";
+              bg = "${base0B}";
+              fg = "${base01}";
             };
             b = {
               bg = "${base01}";
@@ -106,8 +111,8 @@ in {
           };
           replace = {
             a = {
-              bg = "${base01}";
-              fg = "${base0A}";
+              bg = "${base0A}";
+              fg = "${base01}";
             };
             b = {
               bg = "${base01}";
