@@ -4,9 +4,15 @@ in {
   plugins.mini = {
     enable = true;
     modules = {
-      files = {};
       base16 = {
         palette = colors;
+      };
+      files = {
+        content = {
+          prefix = {
+            __raw = "function() end";
+          };
+        };
       };
       starter = {
         evaluate_single = true;

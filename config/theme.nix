@@ -72,7 +72,22 @@ in {
       bg = base00;
     };
 
-    MiniStarterItemPrefix.fg = base0D;
+    MiniStarterItemPrefix = {
+      fg = base0D;
+      bold = true;
+    };
+
+    MiniFilesBorder.fg = base03;
+
+    MiniFilesCursorLine.bg = base01;
+
+    MiniFilesNormal = {
+      fg = base05;
+      bg = base00;
+    };
+
+    MiniFilesTitle.bg = base00;
+    MiniFilesTitleFocused.bg = base00;
 
     TelescopeBorder.fg = base03;
 

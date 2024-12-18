@@ -30,6 +30,6 @@
   };
 
   config = {
-    theme = "test";
+    theme = "paradise";
   };
 }
