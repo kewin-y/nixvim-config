@@ -4,6 +4,7 @@ in {
   plugins.mini = {
     enable = true;
     modules = {
+      files = {};
       base16 = {
         palette = colors;
       };

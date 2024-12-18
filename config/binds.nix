@@ -4,7 +4,7 @@
     {
       mode = "n";
       key = "<leader>w";
-      action = "<cmd>NvimTreeToggle<CR>";
+      action = "<cmd>lua if not MiniFiles.close() then MiniFiles.open() end<Cr>";
     }
     {
       mode = "n";
