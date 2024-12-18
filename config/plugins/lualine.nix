@@ -23,8 +23,8 @@ in {
         theme = with colors; {
           normal = {
             a = {
-              bg = "${base0D}";
-              fg = "${base01}";
+              bg = "${base01}";
+              fg = "${base0D}";
             };
             b = {
               bg = "${base01}";
@@ -45,8 +45,8 @@ in {
           };
           insert = {
             a = {
-              bg = "${base0E}";
-              fg = "${base01}";
+              bg = "${base01}";
+              fg = "${base0E}";
             };
             b = {
               bg = "${base01}";
@@ -67,8 +67,8 @@ in {
           };
           command = {
             a = {
-              bg = "${base08}";
-              fg = "${base01}";
+              bg = "${base01}";
+              fg = "${base08}";
             };
             b = {
               bg = "${base01}";
@@ -89,8 +89,8 @@ in {
           };
           visual = {
             a = {
-              bg = "${base0B}";
-              fg = "${base01}";
+              bg = "${base01}";
+              fg = "${base0B}";
             };
             b = {
               bg = "${base01}";
@@ -111,8 +111,8 @@ in {
           };
           replace = {
             a = {
-              bg = "${base0A}";
-              fg = "${base01}";
+              bg = "${base01}";
+              fg = "${base0A}";
             };
             b = {
               bg = "${base01}";
