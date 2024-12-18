@@ -72,6 +72,8 @@ in {
       bg = base00;
     };
 
+    MiniStarterItemPrefix.fg = base0D;
+
     TelescopeBorder.fg = base03;
 
     TSComment = {
