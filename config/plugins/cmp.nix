@@ -49,12 +49,12 @@
         window = {
           completion = {
             scrollbar = false;
-            border = "solid";
+            border = "single";
             winhighlight = "Normal:NormalFloat,FloatBorder:FloatBorder,CursorLine:Visual,Search:None";
           };
           documentation = {
             scrollbar = false;
-            border = "solid";
+            border = "single";
             winhighlight = "Normal:NormalFloat,FloatBorder:FloatBorder,CursorLine:Visual,Search:None";
           };
         };

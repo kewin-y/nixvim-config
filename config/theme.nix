@@ -8,21 +8,26 @@ in {
       fg = base01;
       bg = "none";
     };
-    NormalFloat.bg = base01;
+    NormalFloat.bg = base00;
+
     FloatBorder.fg = base01;
-    FloatBorder.bg = base01;
+    FloatBorder.bg = base00;
+
     NvimTreeWindowPicker.fg = base05;
     NvimTreeWindowPicker.bg = base01;
     NvimTreeFolderIcon .fg = base0D;
     NvimTreeFolderName .fg = base0D;
     NvimTreeFolderArrowOpen.fg = base0D;
     NvimTreeFolderArrowClosed.fg = base0D;
+
+
     CmpItemAbbrMatch.fg = base05;
     CmpItemAbbrMatchFuzzy.fg = base05;
     CmpItemAbbr.fg = base05;
     CmpItemKind.fg = base0E;
     CmpItemMenu.fg = base0E;
     CmpItemKindSnippet.fg = base0E;
+
     LineNr = {
       fg = base03;
       bg = "none";
