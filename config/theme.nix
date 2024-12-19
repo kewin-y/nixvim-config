@@ -78,6 +78,10 @@ in {
     };
 
     MiniFilesBorder.fg = base03;
+    MiniFilesBorderModified = {
+      fg = base0A;
+      bold = true;
+    };
 
     MiniFilesCursorLine.bg = base01;
 
