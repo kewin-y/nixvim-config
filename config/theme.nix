@@ -38,23 +38,23 @@ in {
     };
     DiagnosticFloatingError = {
       fg = base08;
-      bg = base01;
+      bg = base00;
     };
     DiagnosticFloatingHint = {
       fg = base0A;
-      bg = base01;
+      bg = base00;
     };
     DiagnosticFloatingInfo = {
       fg = base0C;
-      bg = base01;
+      bg = base00;
     };
     DiagnosticFloatingOk = {
       fg = base0B;
-      bg = base01;
+      bg = base00;
     };
     DiagnosticFloatingWarn = {
       fg = base0E;
-      bg = base01;
+      bg = base00;
     };
     DiagnosticSignError = {
       fg = base08;
