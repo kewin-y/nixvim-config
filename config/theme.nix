@@ -10,7 +10,7 @@ in {
     };
     NormalFloat.bg = base00;
 
-    FloatBorder.fg = base01;
+    FloatBorder.fg = base03;
     FloatBorder.bg = base00;
 
     NvimTreeWindowPicker.fg = base05;
