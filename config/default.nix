@@ -17,11 +17,9 @@
         "paradise"
         "far"
         "oxocarbon"
-        "material"
-        "material-darker"
-        "material-lighter"
         "test"
         "decay"
+        "rose-pine"
         "rose-pine-dawn"
         "yoru"
         "solarized-light"
@@ -30,6 +28,6 @@
   };
 
   config = {
-    theme = "test";
+    theme = "rose-pine";
   };
 }
