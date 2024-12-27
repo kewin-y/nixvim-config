@@ -14,15 +14,15 @@
     theme = lib.mkOption {
       default = lib.mkDefault "far";
       type = lib.types.enum [
-        "paradise"
+        "decay"
         "far"
         "oxocarbon"
-        "test"
-        "decay"
-        "rose-pine"
+        "paradise"
         "rose-pine-dawn"
-        "yoru"
+        "rose-pine"
         "solarized-light"
+        "test"
+        "yoru"
       ];
     };
   };
