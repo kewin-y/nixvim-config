@@ -1,6 +1,5 @@
 # Much this code is referenced from elythh's nixvim config as I still suck at Nix
 # See https://github.com/elythh/nixvim
-
 {lib, ...}: {
   imports = [
     ./plugins
@@ -8,6 +7,7 @@
     ./binds.nix
     ./opts.nix
     ./theme.nix
+    ./ftplugin.nix
   ];
 
   options = {
