@@ -5,9 +5,9 @@
   opts = {
     fillchars.eob = " ";
     termguicolors = true;
-    shiftwidth = 2;
-    tabstop = 2;
-    softtabstop = 2;
+    shiftwidth = 8;
+    tabstop = 8;
+    softtabstop = 8;
     expandtab = true;
     smartindent = true;
     laststatus = 3;
