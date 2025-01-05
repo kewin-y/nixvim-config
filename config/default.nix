@@ -16,6 +16,7 @@
       type = lib.types.enum [
         "decay"
         "far"
+        "material-palenight"
         "oxocarbon"
         "paradise"
         "rose-pine-dawn"
@@ -28,6 +29,6 @@
   };
 
   config = {
-    theme = "rose-pine";
+    theme = "material-palenight";
   };
 }
