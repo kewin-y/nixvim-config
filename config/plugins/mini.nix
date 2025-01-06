@@ -17,14 +17,7 @@ in {
       starter = {
         evaluate_single = true;
         header = ''
-           _______
-          < work! >
-           -------
-                  \   ^__^
-                   \  (oo)\_______
-                      (__)\       )\/\
-                          ||----w |
-                          ||     ||
+          that's real life
         '';
         footer = "";
         content_hooks = {

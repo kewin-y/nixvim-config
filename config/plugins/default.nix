@@ -7,7 +7,6 @@
     ./lualine.nix
     ./luasnip.nix
     ./none-ls.nix
-    ./nvim-tree.nix
     ./telescope.nix
     ./treesitter.nix
     ./mini.nix

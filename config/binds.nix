@@ -1,16 +1,19 @@
 {
   globals.mapleader = " ";
   keymaps = [
+    # Toggle MiniFiles
     {
       mode = "n";
       key = "<leader>w";
       action = "<cmd>lua if not MiniFiles.close() then MiniFiles.open() end<Cr>";
     }
+    # Turn off highlighting
     {
       mode = "n";
       key = "<Esc>";
       action = "<cmd>noh<Cr>";
     }
+    # Window keybinds
     {
       mode = "n";
       key = "<C-h>";
@@ -26,21 +29,12 @@
       key = "<C-j>";
       action = "<C-w>j";
     }
-
-    # Window Up
     {
       mode = "n";
       key = "<C-k>";
       action = "<C-w>k";
     }
-
-    {
-      mode = "n";
-      key = "J";
-      action = "mzJ`z";
-    }
-
-    # Move up
+    # Move up/down within wrapped line
     {
       mode = ["n" "v"];
       key = "k";
@@ -49,8 +43,6 @@
         expr = true;
       };
     }
-
-    # Move down
     {
       mode = ["n" "v"];
       key = "j";
@@ -59,19 +51,18 @@
         expr = true;
       };
     }
-
+    # Clipboard-related
     {
       mode = ["n" "v"];
       key = "<leader>y";
       action = ''"+y"'';
     }
-
     {
       mode = "n";
       key = "<leader>Y";
       action = ''"+Y"'';
     }
-
+    # Move text up/down
     {
       mode = "v";
       key = "J";
@@ -81,6 +72,12 @@
       mode = "v";
       key = "K";
       action = ":m '<-2<CR>gv=gv";
+    }
+    # Enhanced defaults
+    {
+      mode = "n";
+      key = "J";
+      action = "mzJ`z";
     }
     {
       mode = "v";

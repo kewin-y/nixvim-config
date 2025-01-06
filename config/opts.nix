@@ -1,5 +1,4 @@
 {...}: {
-  # Where else can I put this
   plugins.web-devicons.enable = false;
 
   opts = {

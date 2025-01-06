@@ -1,5 +1,7 @@
+# Parts of this are referenced from Neve: https://github.com/redyf/Neve/blob/main/config/completion/cmp.nix
 {
   plugins = {
+
     # lspkind
     lspkind.enable = false;
 

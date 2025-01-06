@@ -1,33 +1,18 @@
 {config, ...}: let
   colors = import ./themes/${config.theme}.nix;
 in {
-  # Highlight groups
   highlightOverride = with colors; {
+    # Misc
     WinSeparator.fg = base02;
+    NormalFloat.bg = base00;
     VertSplit = {
       fg = base01;
       bg = "none";
     };
-    NormalFloat.bg = base00;
-
-    FloatBorder.fg = base03;
-    FloatBorder.bg = base00;
-
-    NvimTreeWindowPicker.fg = base05;
-    NvimTreeWindowPicker.bg = base01;
-    NvimTreeFolderIcon .fg = base0D;
-    NvimTreeFolderName .fg = base0D;
-    NvimTreeFolderArrowOpen.fg = base0D;
-    NvimTreeFolderArrowClosed.fg = base0D;
-
-
-    CmpItemAbbrMatch.fg = base05;
-    CmpItemAbbrMatchFuzzy.fg = base05;
-    CmpItemAbbr.fg = base05;
-    CmpItemKind.fg = base0E;
-    CmpItemMenu.fg = base0E;
-    CmpItemKindSnippet.fg = base0E;
-
+    FloatBorder = {
+      fg = base03;
+      bg = base00;
+    };
     LineNr = {
       fg = base03;
       bg = "none";
@@ -36,6 +21,8 @@ in {
       fg = base03;
       bg = "none";
     };
+
+    # Diagnostics
     DiagnosticFloatingError = {
       fg = base08;
       bg = base00;
@@ -77,31 +64,37 @@ in {
       bg = base00;
     };
 
-    MiniStarterItemPrefix = {
-      fg = base0D;
-      bold = true;
-    };
+    # Cmp
+    CmpItemAbbrMatch.fg = base05;
+    CmpItemAbbrMatchFuzzy.fg = base05;
+    CmpItemAbbr.fg = base05;
+    CmpItemKind.fg = base0E;
+    CmpItemMenu.fg = base0E;
+    CmpItemKindSnippet.fg = base0E;
 
+    # Mini
     MiniFilesBorder.fg = base03;
+    MiniFilesCursorLine.bg = base01;
+    MiniFilesTitle.bg = base00;
+    MiniFilesTitleFocused.bg = base00;
     MiniFilesBorderModified = {
       fg = base0A;
       bold = true;
     };
-
-    MiniFilesCursorLine.bg = base01;
-
+    MiniStarterItemPrefix = {
+      fg = base0D;
+      bold = true;
+    };
     MiniFilesNormal = {
       fg = base05;
       bg = base00;
     };
 
-    MiniFilesTitle.bg = base00;
-    MiniFilesTitleFocused.bg = base00;
-
+    # Telescope
     TelescopeBorder.fg = base03;
 
     TSComment = {
-      fg = base03;
+      fg = base0B;
       italic = true;
     };
   };
