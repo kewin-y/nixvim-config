@@ -1,4 +1,5 @@
-# author: "Nate Peterson"
+# Author: "Nate Peterson"
+# See: https://github.com/ntpeters/base16-materialtheme-scheme
 {
   base00 = "#292D3E";
   base01 = "#444267";

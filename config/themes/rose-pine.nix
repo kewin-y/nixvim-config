@@ -1,4 +1,5 @@
-# author: "Emilia Dunfelt <edun@dunfelt.se>"
+# Author: "Emilia Dunfelt <edun@dunfelt.se>"
+# See: https://github.com/edunfelt/base16-rose-pine-scheme
 {
   base00 = "#191724";
   base01 = "#1f1d2e";

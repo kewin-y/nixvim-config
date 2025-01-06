@@ -1,4 +1,4 @@
-# 😂
+# Author: Kevin
 {
   base00 = "#0f1314";
   base01 = "#151a1c";

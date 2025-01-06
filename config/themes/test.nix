@@ -1,5 +1,5 @@
-# Author: Me
-# Ok so thats why its
+# Author: Kevin
+# So that's why it 🤓
 {
   base00 = "#f5f3ef";
   base01 = "#e6e5e4";
