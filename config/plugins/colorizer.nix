@@ -1,3 +1,9 @@
 {
-  plugins.colorizer.enable = true;
+  plugins.colorizer = {
+    enable = true;
+    lazyLoad.settings = {
+      enable = true;
+      event = ["DeferredUIEnter"];
+    };
+  };
 }

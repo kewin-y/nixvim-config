@@ -1,6 +1,19 @@
 {pkgs, ...}: {
   plugins.telescope = {
     enable = true;
+
+    lazyLoad.settings = {
+      enable = true;
+      keys = [
+        "<C-g>"
+        "<leader>fw"
+        "<leader>ff"
+        "<leader>fo"
+        "<leader>fb"
+      ];
+      cmd = "Telescope";
+    };
+
     keymaps = {
       "<C-g>" = "git_files";
       "<leader>fw" = "live_grep";

@@ -1,7 +1,6 @@
 # Parts of this are referenced from Neve: https://github.com/redyf/Neve/blob/main/config/completion/cmp.nix
 {
   plugins = {
-
     # lspkind
     lspkind.enable = false;
 
@@ -15,6 +14,9 @@
 
     cmp = {
       enable = true;
+      settings.lazyLoad.settings = {
+        enable = true;
+      };
       settings = {
         autoEnableSources = true;
         experimental = {ghost_text = true;};

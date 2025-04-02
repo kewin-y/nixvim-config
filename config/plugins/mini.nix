@@ -8,6 +8,10 @@ in {
         palette = colors;
       };
       files = {
+        lazyLoad.settings = {
+          enable = true;
+          keys = ["<leader>w"];
+        };
         content = {
           prefix = {
             __raw = "function() end";
@@ -17,7 +21,7 @@ in {
       starter = {
         evaluate_single = true;
         header = ''
-          that's real life
+          nvim
         '';
         footer = "";
         content_hooks = {

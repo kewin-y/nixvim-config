@@ -1,5 +1,6 @@
 {...}: {
   plugins.web-devicons.enable = false;
+  plugins.lz-n.enable = true;
 
   opts = {
     fillchars.eob = " ";

@@ -1,6 +1,10 @@
 {
   plugins.lsp = {
     enable = true;
+    lazyLoad.settings = {
+      enable = true;
+      event = ["BufReadPost" "BufNewFile"];
+    };
     servers = {
       nixd.enable = true;
       ts_ls.enable = true;
