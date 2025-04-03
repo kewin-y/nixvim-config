@@ -24,6 +24,7 @@
     timeoutlen = 400;
     undofile = true;
     conceallevel = 1;
+    winborder = "single";
   };
 
   # 😢
