@@ -19,11 +19,12 @@
         "rose-pine-dawn"
         "rose-pine"
         "test"
+        "everforest-dark-hard"
       ];
     };
   };
 
   config = {
-    theme = "material-palenight";
+    theme = "everforest-dark-hard";
   };
 }
