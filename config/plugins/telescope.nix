@@ -46,6 +46,7 @@
       selection_strategy = "reset";
       sorting_strategy = "ascending";
       layout_strategy = "flex";
+      border = false;
       layout_config = {
         horizontal = {
           prompt_position = "bottom";
@@ -53,11 +54,11 @@
         };
       };
 
-      borderchars = {
-        prompt = ["─" "│" "─" "│" "┌" "┐" "┘" "└"];
-        results = ["─" "│" "─" "│" "┌" "┐" "┘" "└"];
-        preview = ["─" "│" "─" "│" "┌" "┐" "┘" "└"];
-      };
+      # borderchars = {
+      #   prompt = ["─" "│" "─" "│" "┌" "┐" "┘" "└"];
+      #   results = ["─" "│" "─" "│" "┌" "┐" "┘" "└"];
+      #   preview = ["─" "│" "─" "│" "┌" "┐" "┘" "└"];
+      # };
     };
   };
 }
